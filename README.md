@@ -122,6 +122,7 @@ The **tabular-only Random Forest** was selected for final predictions due to sup
 
 ## Project Structure
 
+```
 satellite-property-valuation/
 │
 ├── data/
@@ -133,7 +134,7 @@ satellite-property-valuation/
 ├── notebooks/
 │   ├── eda.ipynb             # Exploratory Data Analysis (EDA) and visualization
 │   ├── preprocessing.ipynb   # Data cleaning, feature engineering
-│   └── model_training.ipynb  # Image preprocessing and Model training (tabular, CNN, and fusion models)
+│   └── model_training.ipynb  # Image preprocessing and Model training
 │
 ├── src/
 │   └── data_fetcher.py       # Script to fetch satellite images using geographic coordinates
@@ -141,6 +142,7 @@ satellite-property-valuation/
 ├── predictions.csv           # Final property price predictions from the trained model
 ├── requirements.txt          # Python dependencies required to run the project
 └── README.md                 # Project documentation and usage instructions
+```
 
 ---
 
