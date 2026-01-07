@@ -10,7 +10,7 @@ DATA_PATH = os.path.join(BASE_DIR, "..", "data", "processed", "train_clean.csv")
 IMAGE_SAVE_DIR = os.path.join(BASE_DIR, "..", "data", "images")
 # ------------------------------------------
 
-MAPBOX_TOKEN = "pk.eyJ1IjoiZG9vZmVuc2htaXJ0ejE2IiwiYSI6ImNtam9va285bzIybXAzZnNjczdmY2Y0cmQifQ.32nZl4pM6SgcqqmarBOmpg"
+MAPBOX_TOKEN = "ENTER YOUR TOKEN HERE"
 IMAGE_SIZE = "224x224"
 ZOOM = 16
 STYLE = "satellite-v9"
