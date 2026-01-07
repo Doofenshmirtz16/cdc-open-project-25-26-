@@ -125,39 +125,22 @@ The **tabular-only Random Forest** was selected for final predictions due to sup
 satellite-property-valuation/
 
 │
-
 ├── data/
-
 │ ├── raw/ # Original datasets
-
 │ ├── processed/ # Cleaned tabular data
-
 │ ├── images/ # Satellite images
-
 │ └── image_embeddings.npy # CNN embeddings
-
 │
-
 ├── notebooks/
-
 │ ├── eda.ipynb
-
 │ ├── preprocessing.ipynb
-
 │ └── model_training.ipynb
-
 │
-
 ├── src/
-
 │ └── data_fetcher.py # Satellite image downloader
-
 │
-
 ├── predictions.csv # Final prediction file (tabular model)
-
 ├── requirements.txt
-
 └── README.md
 
 ---
